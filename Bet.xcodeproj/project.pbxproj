@@ -26,6 +26,7 @@
 		8435113620959237003CEBDE /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435113520959237003CEBDE /* NotificationViewController.swift */; };
 		843511382095924F003CEBDE /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843511372095924F003CEBDE /* FriendsViewController.swift */; };
 		8435113A2095E88D003CEBDE /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843511392095E88D003CEBDE /* AppColor.swift */; };
+		8435113C2095E949003CEBDE /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435113B2095E949003CEBDE /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		8435113520959237003CEBDE /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		843511372095924F003CEBDE /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		843511392095E88D003CEBDE /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		8435113B2095E949003CEBDE /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 		8435112C20959083003CEBDE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8435113B2095E949003CEBDE /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				8435113620959237003CEBDE /* NotificationViewController.swift in Sources */,
 				843510ED20958978003CEBDE /* AppDelegate.swift in Sources */,
 				843511382095924F003CEBDE /* FriendsViewController.swift in Sources */,
+				8435113C2095E949003CEBDE /* UIFont+Extension.swift in Sources */,
 				84351130209591C2003CEBDE /* TopTabBarController.swift in Sources */,
 				8435113220959200003CEBDE /* HomeViewController.swift in Sources */,
 			);
