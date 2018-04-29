@@ -116,6 +116,12 @@
 		843510EB20958978003CEBDE /* Bet */ = {
 			isa = PBXGroup;
 			children = (
+				8435112820959049003CEBDE /* Fonts */,
+				843511292095905B003CEBDE /* Models */,
+				8435112D20959093003CEBDE /* Cells */,
+				8435112C20959083003CEBDE /* Extensions */,
+				8435112B2095907A003CEBDE /* Views */,
+				8435112A20959069003CEBDE /* ViewControllers */,
 				843510EC20958978003CEBDE /* AppDelegate.swift */,
 				843510EE20958978003CEBDE /* ViewController.swift */,
 				843510F020958978003CEBDE /* Main.storyboard */,
@@ -155,6 +161,56 @@
 				8435111B20958E5A003CEBDE /* XLPagerTabStrip.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8435112820959049003CEBDE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		843511292095905B003CEBDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8435112A20959069003CEBDE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8435112E209590BE003CEBDE /* TopViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8435112B2095907A003CEBDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8435112C20959083003CEBDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8435112D20959093003CEBDE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8435112E209590BE003CEBDE /* TopViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TopViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
