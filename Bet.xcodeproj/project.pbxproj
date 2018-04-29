@@ -20,6 +20,12 @@
 		8435112420958E5B003CEBDE /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8435111E20958E5A003CEBDE /* Kingfisher.framework */; };
 		8435112520958E5B003CEBDE /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8435111F20958E5A003CEBDE /* SnapKit.framework */; };
 		8435112620958E5B003CEBDE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8435112020958E5B003CEBDE /* Alamofire.framework */; };
+		84351130209591C2003CEBDE /* TopTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435112F209591C2003CEBDE /* TopTabBarController.swift */; };
+		8435113220959200003CEBDE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435113120959200003CEBDE /* HomeViewController.swift */; };
+		8435113420959219003CEBDE /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435113320959219003CEBDE /* AddViewController.swift */; };
+		8435113620959237003CEBDE /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435113520959237003CEBDE /* NotificationViewController.swift */; };
+		843511382095924F003CEBDE /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843511372095924F003CEBDE /* FriendsViewController.swift */; };
+		8435113A2095E88D003CEBDE /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843511392095E88D003CEBDE /* AppColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,12 @@
 		8435111E20958E5A003CEBDE /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		8435111F20958E5A003CEBDE /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		8435112020958E5B003CEBDE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		8435112F209591C2003CEBDE /* TopTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabBarController.swift; sourceTree = "<group>"; };
+		8435113120959200003CEBDE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8435113320959219003CEBDE /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		8435113520959237003CEBDE /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		843511372095924F003CEBDE /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		843511392095E88D003CEBDE /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +140,7 @@
 				843510F320958978003CEBDE /* Assets.xcassets */,
 				843510F520958978003CEBDE /* LaunchScreen.storyboard */,
 				843510F820958978003CEBDE /* Info.plist */,
+				843511392095E88D003CEBDE /* AppColor.swift */,
 			);
 			path = Bet;
 			sourceTree = "<group>";
@@ -209,6 +222,11 @@
 		8435112E209590BE003CEBDE /* TopViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8435112F209591C2003CEBDE /* TopTabBarController.swift */,
+				8435113120959200003CEBDE /* HomeViewController.swift */,
+				8435113320959219003CEBDE /* AddViewController.swift */,
+				8435113520959237003CEBDE /* NotificationViewController.swift */,
+				843511372095924F003CEBDE /* FriendsViewController.swift */,
 			);
 			path = TopViewControllers;
 			sourceTree = "<group>";
@@ -370,8 +388,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8435113420959219003CEBDE /* AddViewController.swift in Sources */,
+				8435113A2095E88D003CEBDE /* AppColor.swift in Sources */,
 				843510EF20958978003CEBDE /* ViewController.swift in Sources */,
+				8435113620959237003CEBDE /* NotificationViewController.swift in Sources */,
 				843510ED20958978003CEBDE /* AppDelegate.swift in Sources */,
+				843511382095924F003CEBDE /* FriendsViewController.swift in Sources */,
+				84351130209591C2003CEBDE /* TopTabBarController.swift in Sources */,
+				8435113220959200003CEBDE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
