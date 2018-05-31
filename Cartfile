@@ -4,3 +4,4 @@ github "SnapKit/SnapKit" ~> 4.0.0
 github "xmartlabs/XLPagerTabStrip" ~> 8.0
 github "abellono/DOFavoriteButton"
 github "Alamofire/Alamofire" ~> 4.6
+github "suzuki-0000/SKPhotoBrowser"

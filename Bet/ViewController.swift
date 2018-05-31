@@ -13,6 +13,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "工事中"
+        self.view.backgroundColor = .white
+        
+        set()
+    }
+    
+    func set(){
+        let view = UnderConstructionView()
+        self.view.addSubview(view)
+        
+        view.snp.makeConstraints{ make in
+            make.edges.equalToSuperview()
+        }
     }
 
     override func didReceiveMemoryWarning() {

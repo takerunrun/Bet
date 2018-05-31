@@ -34,8 +34,12 @@ struct AppColor {
     /// #FFFFFF (rgb 255 255 255)
     static let white         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     
-    /// #028E92 (rgb   2 142 146)
-    static let green         = #colorLiteral(red: 0.007843137255, green: 0.5568627451, blue: 0.5725490196, alpha: 1)
+    /// #028E92 (rgb   93 219 195)
+    static let green         = #colorLiteral(red: 0.3647058824, green: 0.8588235294, blue: 0.7647058824, alpha: 1)
+    
+    static let beige         = #colorLiteral(red: 0.968627451, green: 0.9450980392, blue: 0.9176470588, alpha: 1)
+    
+    static let darkBeige     = #colorLiteral(red: 0.9294117647, green: 0.8745098039, blue: 0.6980392157, alpha: 1)
     
 }
 
